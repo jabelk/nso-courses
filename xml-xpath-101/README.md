@@ -32,7 +32,6 @@ The student will understand:
 
 - Structured Data Basics (10%)
   - JSON vs XML vs YAML
-  - Why is a schema needed (Yang) with structured data
 - XML Syntax using networking examples: (30%)
   - Root / Child / Subchild
   - XML Elements
