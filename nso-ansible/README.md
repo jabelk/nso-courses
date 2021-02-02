@@ -28,7 +28,7 @@ Content Type:
 
 The student will understand:
 
-- The general purpose of NSO Ansible modules as a workflow engine (10%)
+- The general purpose of NSO Ansible modules as a run-book automation engine (10%)
 - The purpose and function of each of the NSO Ansible Modules (10%)
 - How to perform common tasks with the Ansible modules, such as: (70%)
   - Adding / removing a new device (including sync-from)
