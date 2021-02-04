@@ -6,7 +6,13 @@
 
 ## Resources 
 
+### Yang
 
+https://tools.ietf.org/html/rfc6020
+https://developer.cisco.com/learning/modules/nso-basics/nso-basics-cisco-it-103/step/1
+https://napalm-automation.net/yang-for-dummies/
+https://github.com/NSO-developer/nso-5-day-training/blob/master/Yang%20Cheat%20Sheet.pdf
+https://github.com/NSO-developer/nso-5-day-training/blob/master/LectureNotes/NSO_Day_2_yang_xml_and_rest_api.pdf
 
 ### XML / XPATH
 
