@@ -35,12 +35,14 @@ The student will understand:
   - Callpoints and callbacks (http://66.218.245.39/doc/html/ch06.html )
   - Subscribers in the CDB
   - Tail-F Actions and package pre-built from ncs-make-package
+  - best practices in using current() and deref() when building references and XPaths.
   - Common Data Models and data types
     - Working with multiple NED versions
     - Migrating from one NED version to another with existing data in the CDB
 - Working with NEDs (20%)
   - using leafrefs to point to configuration in a device stored in the CDB, with multiple examples for different yang statement types (leaf, leaf-list, etc.)
   - identifying gaps in the data model in NSO, so support can add additional features
+  - how you can do IOS interface refs vs. XR vs. …
 - Working with NETCONF Devices (50%)
   - Building a NETCONF NED
   - Seeing Yang capablities

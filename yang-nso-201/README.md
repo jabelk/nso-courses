@@ -53,6 +53,7 @@ The student will understand:
   - Leafref
   - when
   - must
+  - Identities and how they differ from Enumerations (which to pick when)
   - config vs operational data
   - NSO Specific Syntax with Yang
     - tailf_yang_extensions, tailf_yang_cli, focusing on commonly used ones 
