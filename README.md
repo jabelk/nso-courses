@@ -4,12 +4,13 @@
 
 ### Yang
 
-https://www.oreilly.com/library/view/network-programmability-with/9780135180471/
-https://tools.ietf.org/html/rfc6020
-https://developer.cisco.com/learning/modules/nso-basics/nso-basics-cisco-it-103/step/1
-https://napalm-automation.net/yang-for-dummies/
-https://github.com/NSO-developer/nso-5-day-training/blob/master/Yang%20Cheat%20Sheet.pdf
-https://github.com/NSO-developer/nso-5-day-training/blob/master/LectureNotes/NSO_Day_2_yang_xml_and_rest_api.pdf
+- https://www.oreilly.com/library/view/network-programmability-with/9780135180471/
+- https://tools.ietf.org/html/rfc6020
+- https://developer.cisco.com/learning/modules/nso-basics/nso-basics-cisco-it-103/step/1
+- https://napalm-automation.net/yang-for-dummies/
+- https://github.com/NSO-developer/nso-5-day-training/blob/master/Yang%20Cheat%20Sheet.pdf
+- https://github.com/NSO-developer/nso-5-day-training/blob/master/LectureNotes/NSO_Day_2_yang_xml_and_rest_api.pdf
+- http://66.218.245.39/doc/html/ch06.html (confd user guide)
 
 ### XML / XPATH
 
