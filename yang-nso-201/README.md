@@ -45,12 +45,14 @@ The student will understand:
   - leaf-list
   - list (compared to python dictionary not python list)
   - grouping / uses
-  - rpc
+  - rpc 
   - choice 
   - Built-In Types and Derived Types (typedef)
   - XML Namespace
   - XPATH usage 
   - Leafref
+  - when
+  - must
   - config vs operational data
   - NSO Specific Syntax with Yang
     - tailf_yang_extensions, tailf_yang_cli, focusing on commonly used ones 

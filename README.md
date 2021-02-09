@@ -1,13 +1,10 @@
 # nso-courses
 
-
-
-
-
-## Resources 
+## Resources  
 
 ### Yang
 
+https://www.oreilly.com/library/view/network-programmability-with/9780135180471/
 https://tools.ietf.org/html/rfc6020
 https://developer.cisco.com/learning/modules/nso-basics/nso-basics-cisco-it-103/step/1
 https://napalm-automation.net/yang-for-dummies/

@@ -34,6 +34,8 @@ The student will understand:
   - JSON vs XML vs YAML
   - Converting between XML, JSON and YAML  
     - Using quick online tools like JSON2YAML for quick visuals
+    - Reference Hank's video on JSON/XML/YAML for deeper dive
+    - https://developer.cisco.com/video/net-prog-basics/01-programming_fundamentals/data_formats
 - XML Syntax using networking examples: (30%)
   - Root / Child / Subchild
   - XML Elements

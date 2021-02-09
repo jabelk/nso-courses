@@ -31,11 +31,17 @@ Content Type:
 
 The student will understand:
 
-
+- Additional Yang and NSO Concepts (30%)
+  - Callpoints and callbacks (http://66.218.245.39/doc/html/ch06.html )
+  - Subscribers in the CDB
+  - Tail-F Actions and package pre-built from ncs-make-package
+  - Common Data Models and data types
+    - Working with multiple NED versions
+    - Migrating from one NED version to another with existing data in the CDB
 - Working with NEDs (20%)
   - using leafrefs to point to configuration in a device stored in the CDB, with multiple examples for different yang statement types (leaf, leaf-list, etc.)
-  - identifying gaps in the data model in NSO, so support can add 
-- Hands on Exercises with all the data types from 201 ()
-  - Give the student a prompt or scenario and ask them to write a data model. 
-  - Give a suggested solution, but point out the general things it should have to be right
-  - Have the data model be compiled into a package and play with inputs, seeing inputs fail. 
+  - identifying gaps in the data model in NSO, so support can add additional features
+- Working with NETCONF Devices (50%)
+  - Building a NETCONF NED
+  - Seeing Yang capablities
+  - Talking to a NETCONF Device
