@@ -40,6 +40,7 @@ The student will understand:
     - Makefile basics and editing it to import another yang file
 - Yang Statement Syntax: Learning by Example (70%)
   - C style with {} and ; instead of whitespace, commenting // /* */ 
+  - compilation with makefile and .fxs files in NSO
   - container (and presence container)
   - leaf
   - leaf-list
@@ -55,5 +56,5 @@ The student will understand:
   - must
   - Identities and how they differ from Enumerations (which to pick when)
   - config vs operational data
-  - NSO Specific Syntax with Yang
+  - NSO Specific Syntax with Yang (Guillaume offered to help on this one)
     - tailf_yang_extensions, tailf_yang_cli, focusing on commonly used ones 
