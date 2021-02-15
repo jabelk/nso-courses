@@ -14,7 +14,7 @@ Time to Create Content:
 
 Estimated Student Time:
 
-- 60 Minutes
+- 90 Minutes
 
 Part of Larger Series:
 
@@ -25,5 +25,6 @@ Content Type:
 - Learning Lab
 
 ## High Level Design
+
 
  
