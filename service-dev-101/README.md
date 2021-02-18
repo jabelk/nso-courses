@@ -46,6 +46,7 @@ Pre-Req:
       - Service Type
       - Device Configuration
       - Service Template
+        - template is declarative. 
 - Service Mapping (20%)
   - mapping not from workflow or sequence of commands 
   - not worried about CRUD, since FASTMAP takes care of it, don't need to defining delete or error handling, focus on create. 
@@ -60,4 +61,5 @@ Pre-Req:
     - Simple Yang model
     - Simple Template (covering at least two NED types / device types)
     - No code yet
+    - explain the file layout
   - Show service CRUD on CLI/GUI, including dry-run, re-deploy, diff from Out of Band change
