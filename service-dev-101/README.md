@@ -37,9 +37,10 @@ Pre-Req:
       - Other Device Manager Config Mgmt
         - Device Templates
         - Device Manager ad hoc changes (in CLI, API, etc.)
-      - Services allow bundling of logic, service lifecycle management (this concept needs explanation), 
-      - service meta data, backpointer / refcount, giving an example, showing that config is kept track of when removed or added. 
-      - re-deploy, check-sync deep, removing service if overlapping config with other service 
+      - Services allow bundling of logic, service lifecycle management (this concept needs explanation)
+      - FASTMAP
+        - service meta data, backpointer / refcount, giving an example, showing that config is kept track of when removed or added. 
+        - re-deploy, check-sync deep, removing service if overlapping config with other service 
     - Defining terms: (NSO Development Guide PDF 5.5 p.194)
       - Service model
       - Service Instance

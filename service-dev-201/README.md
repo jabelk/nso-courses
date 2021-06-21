@@ -26,42 +26,16 @@ Content Type:
 
 ## High Level Design
 
-- Service Discovery (development ch 11)
-  - services deployed manually, or through older system
-  - import existing services into NSO
-  - import device into NSO
-    - write yang for data model and mapping logic
-    - display service meta data, 
-    - redeploy reconicle discard non service config dry run
-    - examples.ncs/getting started/ developing with ncs/ 4-rfs-service
-- Templates
-  - Device vs Config vs Service vs Feature Templates (Ch12 development pdf)
-    - defining terms: from pdf
-    - naming conventions for config-template 'package name-feature.xml'
-    - Writing a Config Template from a Device Template, save to file after drafting
-    - Writing a Config Template from a Device Config snippet, display xml, save
-  - Built-In Features
-    - predefined variables: $DEVICE, $TEMPLATE_NAME, $SCHEMA_OPAQUE 
-    - Templates are declarative, tags: merge, replace, delete, create, nocreate
-    - basic string variables $VARNAME
-    - Template processing instructions
-      - set variable
-      - if else
-      - for loop
-      - copy-tree
-      - set-context-node
-      - set-root-node
-      - save-context
-      - switch context
-      - if-ned-id elif-ned-id 
-    - ordered-by user lists / leaf-lists, using insert="" and guard attribute, ACLs multiple services on same list
-    - Debugging Templates
-      - debug template, debug xpath
-      - things to look for, common mistakes
-    - Service Templates
-      - examples.ncs/service-provider/simple-mpls-vpn
-      - ncs:servicepoint
-      - xpath and template processing instructions examples
-      - supported-ned-ids in the package meta data.xml file, benefits time savings and fewer errors
-      - 
+- Learn by Doing: A Python Based Service
+  - create using ncs-make-package, option to add an action template. 
+  - setting a variable from the yang data model, and a variable purely from the code, showing how each would be applied to a template, using $VARNAME, with dollar sign being different
+  - Service Python Classes and Methods, parameters explained and how to use ServiceCallbacks / ncs.application.Application
+    - cb_create(), cb_pre_lock_create(), cb_pre_modification(), cb_post_modification(), setup(), teardown(), register_service()
+    - basic warnings given around having service create make a REST call, read a file or anything like that. 
+  - Other Tips:
+    - Using opaque to keep random choices stable between redeploys
+    - setting operational data
+  - Using Resource Manager for things like VLAN IDs
+    - using Resource manager Python API to reserve IDs. 
+    
 
