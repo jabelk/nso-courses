@@ -62,7 +62,45 @@ For 301, maybe move service discovery there. Probably just the basics of RFM, bu
 
 ### XML / XPATH
 
+<<<<<<< HEAD
 - similar course: https://www.youtube.com/watch?v=JQO-x8rzNVI&feature=youtu.be 
+=======
+example from Hank
+```
+    list switch-pair {
+      tailf:info "A pair of network switches which are deployed in the fabric to offer connectivity redundancy. Configuration (and port usage) is common within the pair.";
+      ordered-by user; 
+
+      leaf-list switch {
+        ordered-by user;  
+        type leafref { 
+          path "/ncs:devices/ncs:device/ncs:name"; 
+        }
+        tailf:info "The two devices which make up the switch pair. The first entered will be hold primary roles where appropriate.";
+        min-elements 2;
+        max-elements 2;
+      }
+
+      // Constraints
+      //  - Same NED as primary 
+      must "/ncs:devices/ncs:device[ncs:name=current()/switch[1]]/ncs:device-type/ncs:cli/ncs:ned-id = /ncs:devices/ncs:device[ncs:name=current()/switch[2]]/ncs:device-type/ncs:cli/ncs:ned-id" {
+        error-message "primary and secondary members of a switch pair must use the same NED";
+      }
+
+      // Constraints 
+      //  - A network device cannot be a part of more than one fabric 
+      //  - Get a count of how many times each switch shows up in any network fabric
+      must "
+            count(/network-fabric/switch-pair/switch[text() = current()/switch[1]]) <= 1
+            and count(/network-fabric/switch-pair/switch[text() = current()/switch[2]]) <= 1
+            " {
+        error-message "A device cannot be a member of more than one switch-pair.";
+      }
+
+    }
+```
+
+>>>>>>> 696b890abb406198f37ca72bbb5d672733774abb
 - examples.ncs/service-provider in installation docs, mpls-vpn-new-template/packages/l3vpn/templates
 - http://userguides.tail-f.com/ncs/nso-5.4/doc/html/nso_man/man.5.tailf_yang_extensions.html (XPATH FUNCTIONS section at bottom)
 - https://www.amazon.com/XML-Pocket-Consultant-William-Stanek/dp/0735611831
