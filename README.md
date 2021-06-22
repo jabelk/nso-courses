@@ -38,6 +38,8 @@
 
 ### Service Dev
 
+
+
 feedback:
 Okay. First of all, when do you want to talk about what a service does, about the FASTMAP algorithm and all of that? Maybe put the basics into 101 and for 301 do a deep dive into what this means and why that means we need it to be side effect free?
     For sure, I was trying to outline some of that in the 101, "- NSO Services Overview (40%)", but I could add some more bullets. I am not sure what you mean by side effect free, but there is a lot more to deep dive in 301, possibly even cover stacked services. 
@@ -62,9 +64,7 @@ For 301, maybe move service discovery there. Probably just the basics of RFM, bu
 
 ### XML / XPATH
 
-<<<<<<< HEAD
 - similar course: https://www.youtube.com/watch?v=JQO-x8rzNVI&feature=youtu.be 
-=======
 example from Hank
 ```
     list switch-pair {
@@ -100,7 +100,6 @@ example from Hank
     }
 ```
 
->>>>>>> 696b890abb406198f37ca72bbb5d672733774abb
 - examples.ncs/service-provider in installation docs, mpls-vpn-new-template/packages/l3vpn/templates
 - http://userguides.tail-f.com/ncs/nso-5.4/doc/html/nso_man/man.5.tailf_yang_extensions.html (XPATH FUNCTIONS section at bottom)
 - https://www.amazon.com/XML-Pocket-Consultant-William-Stanek/dp/0735611831
