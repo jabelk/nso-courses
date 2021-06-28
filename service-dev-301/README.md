@@ -32,17 +32,20 @@ Content Type:
         - Reactive Fastmap
         - Nano Service
         - Stacked Service
-- Situational Features to Consider (40%)
+- Situational Features to Consider (20%)
     - Using opaque to keep random choices stable between redeploys (for example allocating IP addresses)
     - how and why to set operational data
-- Reactive FASTMAP Services and Nano Services (20%)
-   - Other relevant service design best practices regarding how FASTMAP works:
-    - basic warnings given around having service create make a REST call, read a file or anything like that. 
-- Integrating with Outside Systems (40%)
+    - Integrating with Outside Systems
         - IPAM 
-        - Monitoring / Operational verficiation
+        - Monitoring / Operational verification
+        - using Resource manager Python API to reserve IDs. 
     - Using Resource Manager for things like VLAN IDs
-      - using Resource manager Python API to reserve IDs. 
+    - Reactive FASTMAP Services and Nano Services 
+        - Other relevant service design best practices regarding how FASTMAP works:
+        - basic warnings given around having service create make a REST call, read a file or anything like that. 
+- More Showcase examples to walk through (60%)
+    - showcasing various service designs and situational features
+    - reinforcing previous concepts of FASTMAP and how to create a service
 
 
 

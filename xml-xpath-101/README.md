@@ -55,5 +55,5 @@ The student will understand:
   - Using CLI options on show running-configuration | display xml / json / xpath / prefix
 
 ## Examples
-
+- keep all examples showcase examples
 https://developer.cisco.com/learning/modules/nso-basics/nso-basics-cisco-it-103/step/6 
